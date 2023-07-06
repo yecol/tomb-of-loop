@@ -1,0 +1,212 @@
+/* 
+  Localizable.strings
+  loop
+
+  Created by Yecol Hsu on 25/04/2017.
+  Copyright © 2017 Jingbo. All rights reserved.
+*/
+
+// tabBar
+"kTabFeed" = "新鲜事";
+"kTabDiscovery" = "发现";
+"kTabMessage" = "消息";
+"kTabProfile" = "我的";
+
+//BadgeInfoBox
+"kBadgeInfoBoxGrade" = "等级";
+"kBadgeInfoBoxGradeDetail" = "级";
+"kBadgeInfoBoxRarity" = "稀缺度";
+"kBadgeInfoBoxRarityDetail" = "的用户拥有";
+"kBadgeInfoBoxExperience" = "经验值";
+"kBadgeInfoBoxExperienceDetail" = "到下个等级";
+"kBadgeInfoBoxObtainedDate" = "获得日期";
+
+"kSectionTitle_BadgeDetail_Posts" = "相关文章";
+"kSectionTitle_BadgeDetail_Desc" = "描述";
+"kSectionTitle_BadgeDetail_Owners" = "拥有者";
+"kSectionTitle_DiscoveryBadge_Featured" = "特色推荐";
+"kSectionTitle_DiscoveryBadge_Interesting" = "有趣内容";
+"kSectionTitle_PostDetail_Comments" = "评论";
+
+
+"kTitle_BadgeFilter" = "选择徽章";
+"kTitle_CheckIn" = "地点";
+"kTitle_Notifications" = "通知";
+"kTitle_Plus" = "新的动作";
+"kTitle_PostNew_AttachBadges" = "徽章";
+"kTitle_PostNew_AttachPlace" = "地点";
+"kTitle_PostNew" = "新的状态";
+"kTitle_Profile" = "我的";
+"kTitle_MyBadges" = "我的徽章";
+"kTitle_MyFriends" = "我的朋友";
+"kTitle_MyPosts" = "我的状态";
+"kTitle_MyCheckIns" = "我的签到";
+"kTitle_MyBlockedUsers" = "已屏蔽的用户";
+"kTitle_MyFavouriteBadges" = "已收藏的徽章";
+"kTitle_EditMyDetail" = "编辑我的详细资料";
+"kTitle_ShareBadge" = "分享徽章";
+"kTitle_InitSelectBadge" = "选择感兴趣的徽章";
+
+
+"kButton_BadgeFilter_Filter_Normal" = "过滤";
+"kButton_CheckIn_CheckIn_Normal" = "签到";
+"kButton_Login_Login_Normal" = "登录";
+"kButton_Login_SignUp_Normal" = "注册";
+"kButton_Register_Register_Normal" = "注册";
+"kButton_Login_ForgetPwd_Normal" = "忘记密码";
+"kButton_Notification_FriendAccept_Normal" = "接受";
+"kButton_Notification_FriendIgnore_Normal" = "忽略";
+"kButton_Plus_NewPost_Normal" = "新状态";
+"kButton_Plus_CheckIn_Normal" = "签到";
+"kButton_Plus_ClockIn_Normal" = "签早";
+"kButton_Profile_Friend_Yourself" = "本人";
+"kButton_Profile_Friend_Blocked" = "已屏蔽";
+"kButton_Profile_Friend_Friends" = "互为好友";
+"kButton_Profile_Friend_AddFriend" = "加为好友";
+"kButton_Profile_Friend_Requested" = "请求已发送";
+
+
+"kRuleEmailRequired" = "Email是必填项";
+"kRulePwdRequired" = "密码是必填项";
+"kRulePwdRepeatMatch" = "密码不匹配";
+"kRuleEmailFormat" = "Email格式不规范";
+"kRulePostMustHaveBadge" = "状态必须带徽章发表";
+"kRulePostMustHaveContent" = "状态必须带内容发表";
+"kRulePostMustHaveImages" = "状态必须带照片发表";
+"kRulePostContentLimit" = "状态内容超过长度限制";
+
+
+//Empty
+"kEmptyFeed" = "没有状态";
+"kEmptyBadges" = "没有徽章";
+"kEmptyFriends" = "没有朋友";
+"kEmptyCheckIns" = "没有签到";
+"kEmptyBlockedUsers" = "没有屏蔽的用户";
+
+//NewsFeed
+"kFeedTabRecommend" = "推荐";
+"kFeedTabFriends" = "好友";
+"kFeedSharedThisPost_Piece" = " 分享了这条状态";
+"kFeedPostWithFriends_Piece" = " 标记了 ";
+
+"kFeedYouSharedThisPost" = "你分享了这条状态";
+"kFeedBadgeFilterOn" = "过滤已打开";
+"kFeedBadgeFilterOnDetailed" = "再次点击关闭过滤";
+"kFeedWriteACommentHint" = "撰写评论";
+"kFeedPostNewHint" = "分享你想说的...";
+"kFeedPostNewTimeHint" = "现在";
+"kSearchHint" = "从这里开始搜索...";
+
+//Discovery
+"kDiscoveryTabBadge" = "徽章";
+"kDiscoveryTabPeople" = "用户";
+"kDiscoveryBadgeHot_Holder" = "稀缺度: %.02f";
+
+
+//Profile
+"kProfileTabPosts" = "状态";
+"kProfileTabBadges" = "徽章";
+"kProfileTabFriends" = "好友";
+
+"kProfileSelfMyFriends" = "我的好友";
+"kProfileSelfMyBadges" = "我的徽章";
+"kProfileSelfMyPosts" = "我的状态";
+"kProfileSelfMyCheckIns" = "我的签到";
+"kProfileSelfMyFavouriteBadges" = "已收藏的徽章";
+"kProfileSelfBlockedUsers" = "已屏蔽的用户";
+
+"kProfileSelfEditProfile" = "编辑我的详细资料";
+"kProfileSelfSettings" = "设置";
+"kProfileSelfNotifications" = "通知";
+"kProfileSelfViewYourPublicProfile" = "查看我的公共资料页";
+"kProfileBadgeLevel_Holder" = "%d 级";
+
+"kSettingItemAbout" ="关于";
+"kSettingItemFeedback" ="发送反馈";
+"kSettingItemLogout" ="退出登录";
+
+//Share
+"kTwitterSharingHint" = "我刚在 Loop 上获得了一枚新的徽章！";
+
+
+//ToastInfo
+"kToastUpdateBadgeLikeSuccess" = "更新成功";
+"kToastUpdatePostLikeSuccess" = "更新成功";
+"kToastSharedSuccess" = "分享成功";
+"kToastPostReportSuccess" = "举报成功";
+"kToastUserBlockedSuccess" = "屏蔽成功";
+"kToastUserUnBlockedSuccess" = "已经解除屏蔽";
+"kToastCommentSuccess" = "评论成功";
+"kToastCommentFailed" = "评论失败";
+"kToastPostNewSuccess" = "发送成功";
+"kToastFriendshipUpdatedSuccess" = "更新成功";
+"kToastBadgeSelectorAtMost" = "一次最多可选4枚徽章";
+"kToastProfileEditSavedSuccess" = "保存成功";
+"kToastResetEmailSent" = "重置邮件已经发送";
+"kToastTwitterSharedSuccess" = "Tweet 已经发送";
+"kToastNoMoreActions" = "没有更多选项";
+
+//AlertInfo
+"kAlert_CannotGotLocation" = "无法得到当前位置信息";
+"kAlert_ConfirmSharePost" = "确认分享这条状态？";
+"kAlert_ClockInNotValid" = "签早只能在早上5点到早上7点之间进行";
+"kAlert_UploadPhotoFailed" = "照片上传失败";
+"kAlert_CameraLaunchFailed" = "相机不可用";
+"kAlert_ConfirmUnFriend" = "确认解除好友关系？";
+"kAlert_ProfileDetailAvatarNeeded" = "请选择一个头像";
+"kAlert_ProfileDetailAllFieldMandatory" = "所有项目都是必填项";
+"kAlert_NoFacebookInstalled" = "未在设备上发现 Facebook 软件";
+
+
+"kAlertItem_Report_Post" = "举报内容";
+"kAlertItem_Block_User" = "屏蔽这个用户";
+"kAlertItem_UnBlock_User" = "取消屏蔽这个用户";
+"kAlertItem_UnFriend_User" = "解除好友关系";
+"kAlertItem_Report_Post" = "举报";
+
+"kRegisterDetailWelcome"="欢迎";
+"kRegisterDetailWelcomeDetail"="告诉我们一些更多信息";
+
+//Popup Congrats
+"kCongrats_Title" = "祝贺你！";
+"kCongrats_Grant" = "你获得了一个新的徽章";
+"kCongrats_Upgrade" = "你的徽章升级了";
+
+// Notifications
+"kNotificationNowFriends_Holder" ="%@ 现在已经是你的好友了";
+"kNotificationFriendRequest_Piece" =" 希望成为你的好友";
+
+
+//general
+"kFriendItemDetail_Holder" = "%d 状态 · %d 徽章 · %d 好友";
+"kCancel" = "取消";
+"kDone" = "确认";
+"kSend" = "发送";
+"kSave" = "保存";
+"kReset" = "重置";
+"kConfirm" = "确认";
+"kPost" = "发送";
+"kDistanceDetail_Holder" = "%.1f km";
+"kDistanceUnknown" = "??? km";
+"kEmail" = "电子邮件";
+"kFirstName" = "名";
+"kLastName" = "姓";
+"kGender" = "性别";
+"kBirthday" = "出生日期";
+"kCity" = "所在城市";
+"kIntro" = "自我介绍";
+"kMale" = "男";
+"kFemale" = "女";
+"kUnspecified" = "保密";
+
+"kPassword" ="密码";
+"kRePassword" ="重复密码";
+"kTermsIntro_Piece" = "你同意我们的 ";
+"kTermsLink" = "服务协议";
+"kPrivacyLink" = "隐私协议";
+"kAnd_Piece" = " 和 ";
+"kAlertConfirmationTitle" = "确认";
+"kShare" = "分享";
+
+// ShareSheetToThirdParty
+"kShareSheetDesc_Piece" = " 在 Loop 中获得了徽章。";

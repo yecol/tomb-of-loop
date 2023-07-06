@@ -1,0 +1,212 @@
+/* 
+  Localizable.strings
+  loop
+
+  Created by Yecol Hsu on 25/04/2017.
+  Copyright © 2017 Jingbo. All rights reserved.
+*/
+
+// tabBar
+"kTabFeed" = "Feed";
+"kTabDiscovery" = "Discovery";
+"kTabMessage" = "Message";
+"kTabProfile" = "Profile";
+
+//BadgeInfoBox
+"kBadgeInfoBoxGrade" = "GRADE";
+"kBadgeInfoBoxGradeDetail" = "level";
+"kBadgeInfoBoxRarity" = "RARITY";
+"kBadgeInfoBoxRarityDetail" = "users owned";
+"kBadgeInfoBoxExperience" = "EXPERIENCE";
+"kBadgeInfoBoxExperienceDetail" = "to next level";
+"kBadgeInfoBoxObtainedDate" = "OBTAINED";
+
+"kSectionTitle_BadgeDetail_Posts" = "POSTS";
+"kSectionTitle_BadgeDetail_Desc" = "DESCRIPTION";
+"kSectionTitle_BadgeDetail_Owners" = "OWNERS";
+"kSectionTitle_DiscoveryBadge_Featured" = "FEATURED";
+"kSectionTitle_DiscoveryBadge_Interesting" = "INTERESTING";
+"kSectionTitle_PostDetail_Comments" = "COMMENTS";
+
+
+"kTitle_BadgeFilter" = "Select badges";
+"kTitle_CheckIn" = "Places";
+"kTitle_Notifications" = "Notifications";
+"kTitle_Plus" = "New Action";
+"kTitle_PostNew_AttachBadges" = "Badges";
+"kTitle_PostNew_AttachPlace" = "Places";
+"kTitle_PostNew" = "New";
+"kTitle_Profile" = "Profile";
+"kTitle_MyBadges" = "My Badges";
+"kTitle_MyFriends" = "My Friends";
+"kTitle_MyPosts" = "My Posts";
+"kTitle_MyCheckIns" = "My CheckIns";
+"kTitle_MyBlockedUsers" = "Blocked Users";
+"kTitle_MyFavouriteBadges" = "My Favourite Badges";
+"kTitle_EditMyDetail" = "Edit My Details";
+"kTitle_ShareBadge" = "Share Your Badge";
+"kTitle_InitSelectBadge" = "Select Your Interests";
+
+
+"kButton_BadgeFilter_Filter_Normal" = "Filter";
+"kButton_CheckIn_CheckIn_Normal" = "Check In";
+"kButton_Login_Login_Normal" = "Login";
+"kButton_Login_SignUp_Normal" = "Sign up";
+"kButton_Register_Register_Normal" = "Register";
+"kButton_Login_ForgetPwd_Normal" = "Forgot password";
+"kButton_Notification_FriendAccept_Normal" = "Accept";
+"kButton_Notification_FriendIgnore_Normal" = "Ignore";
+"kButton_Plus_NewPost_Normal" = "New Post";
+"kButton_Plus_CheckIn_Normal" = "Check In";
+"kButton_Plus_ClockIn_Normal" = "Clock In";
+"kButton_Profile_Friend_Yourself" = "Yourself";
+"kButton_Profile_Friend_Blocked" = "Blocked";
+"kButton_Profile_Friend_Friends" = "Your are friends";
+"kButton_Profile_Friend_AddFriend" = "Add friend";
+"kButton_Profile_Friend_Requested" = "Request sent";
+
+
+"kRuleEmailRequired" = "Email required";
+"kRulePwdRequired" = "Password required";
+"kRulePwdRepeatMatch" = "Password doesn't match.";
+"kRuleEmailFormat" = "Email format required";
+"kRulePostMustHaveBadge" = "Post must attach a badge.";
+"kRulePostMustHaveContent" = "Post must have content.";
+"kRulePostMustHaveImages" = "Post must have photos.";
+"kRulePostContentLimit" = "post content is limited to 500 chars.";
+
+
+//Empty
+"kEmptyFeed" = "No Posts";
+"kEmptyBadges" = "No Badges";
+"kEmptyFriends" = "No Friends";
+"kEmptyCheckIns" = "No CheckIns";
+"kEmptyBlockedUsers" = "No Blocked Users";
+
+//NewsFeed
+"kFeedTabRecommend" = "Recommend";
+"kFeedTabFriends" = "Friends";
+"kFeedSharedThisPost_Piece" = " shared this.";
+"kFeedPostWithFriends_Piece" = " posted with ";
+
+"kFeedYouSharedThisPost" = "You shared this.";
+"kFeedBadgeFilterOn" = "Filter on";
+"kFeedBadgeFilterOnDetailed" = "Click again to cancel";
+"kFeedWriteACommentHint" = "Write comment";
+"kFeedPostNewHint" = "Share what's on your mind.";
+"kFeedPostNewTimeHint" = "Now";
+"kSearchHint" = "Search here...";
+
+//Discovery
+"kDiscoveryTabBadge" = "Badges";
+"kDiscoveryTabPeople" = "People";
+"kDiscoveryBadgeHot_Holder" = "Rarity: %.02f";
+
+
+//Profile
+"kProfileTabPosts" = "POSTS";
+"kProfileTabBadges" = "BADGES";
+"kProfileTabFriends" = "FRIENDS";
+
+"kProfileSelfMyFriends" = "My Friends";
+"kProfileSelfMyBadges" = "My Badges";
+"kProfileSelfMyPosts" = "My Posts";
+"kProfileSelfMyCheckIns" = "My CheckIns";
+"kProfileSelfMyFavouriteBadges" = "My Favourite Badges";
+"kProfileSelfBlockedUsers" = "My Blocked Users";
+
+"kProfileSelfEditProfile" = "Edit My Profile";
+"kProfileSelfSettings" = "Settings";
+"kProfileSelfNotifications" = "Notifications";
+"kProfileSelfViewYourPublicProfile" = "View your public profile";
+"kProfileBadgeLevel_Holder" = "Level %d";
+
+"kSettingItemAbout" ="About";
+"kSettingItemFeedback" ="Send Feedback";
+"kSettingItemLogout" ="Logout";
+
+//Share
+"kTwitterSharingHint" = "I just get a new badge in Loop.";
+
+
+//ToastInfo
+"kToastUpdateBadgeLikeSuccess" = "update badge like successfully.";
+"kToastUpdatePostLikeSuccess" = "update post like successfully.";
+"kToastSharedSuccess" = "Shared successfully!";
+"kToastPostReportSuccess" = "Post reported and blocked.";
+"kToastUserBlockedSuccess" = "User blocked.";
+"kToastUserUnBlockedSuccess" = "User unblocked.";
+"kToastCommentSuccess" = "Comment posted.";
+"kToastCommentFailed" = "Comment failed to post.";
+"kToastPostNewSuccess" = "Posted";
+"kToastFriendshipUpdatedSuccess" = "Your friendship is updated";
+"kToastBadgeSelectorAtMost" = "You can select 4 badges at most.";
+"kToastProfileEditSavedSuccess" = "Saved your details.";
+"kToastResetEmailSent" = "Reset mail sent.";
+"kToastTwitterSharedSuccess" = "Sending tweet!";
+"kToastNoMoreActions" = "No more actions";
+
+//AlertInfo
+"kAlert_CannotGotLocation" = "Cannot get current location";
+"kAlert_ConfirmSharePost" = "Do you confirm to share this post?";
+"kAlert_ClockInNotValid" = "Clock-in is only available between 5AM and 7AM";
+"kAlert_UploadPhotoFailed" = "Upload photo failed";
+"kAlert_CameraLaunchFailed" = "Camera unavailable";
+"kAlert_ConfirmUnFriend" = "Do you really want to unfriend?";
+"kAlert_ProfileDetailAvatarNeeded" = "You have to choose an avatar image.";
+"kAlert_ProfileDetailAllFieldMandatory" = "All fields are mandatory.";
+"kAlert_NoFacebookInstalled" = "Did not find facebook installed in your device.";
+
+
+"kAlertItem_Report_Post" = "Report";
+"kAlertItem_Block_User" = "Block this user";
+"kAlertItem_UnBlock_User" = "UnBlock this user";
+"kAlertItem_UnFriend_User" = "UnFriend";
+"kAlertItem_Report_Post" = "Report";
+
+"kRegisterDetailWelcome"="Welcome";
+"kRegisterDetailWelcomeDetail"="Tell us a more about you.";
+
+//Popup Congrats
+"kCongrats_Title" = "Congratulations!";
+"kCongrats_Grant" = "You got a new badge!";
+"kCongrats_Upgrade" = "You have a badge upgraded.";
+
+// Notifications
+"kNotificationNowFriends_Holder" ="%@ now is your friend";
+"kNotificationFriendRequest_Piece" =" wants to be your friends";
+
+
+//general
+"kFriendItemDetail_Holder" = "%d Posts · %d Badges · %d Friends";
+"kCancel" = "Cancel";
+"kDone" = "Done";
+"kSend" = "Send";
+"kSave" = "Save";
+"kReset" = "Reset";
+"kConfirm" = "Confirm";
+"kPost" = "Post";
+"kDistanceDetail_Holder" = "%.1f km";
+"kDistanceUnknown" = "??? km";
+"kEmail" = "email";
+"kFirstName" = "First Name";
+"kLastName" = "Last Name";
+"kGender" = "Gender";
+"kBirthday" = "Birthday";
+"kCity" = "City";
+"kIntro" = "Intro";
+"kMale" = "Male";
+"kFemale" = "Female";
+"kUnspecified" = "Unspecified";
+
+"kPassword" ="password";
+"kRePassword" ="re-enter password";
+"kTermsIntro_Piece" = "You hereby agree to ";
+"kTermsLink" = "Loop Online Service Agreement";
+"kPrivacyLink" = "Privacy Policy";
+"kAnd_Piece" = " and ";
+"kAlertConfirmationTitle" = "Confirmation";
+"kShare" = "Share";
+
+// ShareSheetToThirdParty
+"kShareSheetDesc_Piece" = " just granted a badge in Loop";

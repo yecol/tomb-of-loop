@@ -1,0 +1,69 @@
+    # Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'loop' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  ###################################### Pods for loop ##########################################
+  pod 'PopupDialog'               
+  pod 'CarbonKit', '~>2.1'
+  pod 'HockeySDK', :subspecs => ['AllFeaturesLib']
+  pod 'AVOSCloud'                  # The foundation module
+  pod 'AVOSCloudIM'                # The IM module
+  pod 'AVOSCloudCrashReporting'    # The crash reporting module
+  pod 'RSKImageCropper', :git => 'https://github.com/ruslanskorb/RSKImageCropper.git', :branch => 'master'
+  pod 'SwiftyJSON', '3.1.3'
+  pod 'SnapKit', '>= 3.0.0'        # Auto Layout
+  # pod 'Cartography', :git => 'git@github.com:robb/Cartography.git'
+  pod 'TTTAttributedLabel'
+  #pod 'RealmSwift', :git => 'git@github.com:realm/realm-cocoa.git', submodules: true
+  pod 'DateTools', :git => 'git@github.com:MatthewYork/DateTools.git', :branch => '2.0.0-beta.2'
+  pod 'NextResponderTextField'
+  pod 'QBImagePickerController'
+  pod 'DZNEmptyDataSet'
+  # pod 'SCLAlertView'
+  pod 'ESPullToRefresh', :git => 'git@github.com:eggswift/pull-to-refresh.git'
+  pod 'IQKeyboardManagerSwift', :git => 'git@github.com:hackiftekhar/IQKeyboardManager.git'
+  pod 'MWPhotoBrowser', :git => 'git@github.com:niveuseverto/MWPhotoBrowser.git'
+  pod 'CYLTabBarController'
+  pod 'SDWebImage', '~> 3.8.0'
+  pod 'Reveal-iOS-SDK', '~> 1.6.2', configurations:["debug"]
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+  pod 'Fabric'
+  pod 'TwitterKit'
+  pod 'ETNavBarTransparent'
+  pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
+  pod 'SwipeTableView'
+  pod 'Instabug'
+
+  # pod 'KMNavigationBarTransition'
+  
+  #################################### TODO: for chat and message ##############################  
+
+  # depedencies of chatkit
+  pod 'DACircularProgress' , '~> 2.3.1'
+  pod 'FDStackView' , '~> 1.0'
+  pod 'FMDB' , '~> 2.6.2'
+  pod 'MJRefresh' , '~> 3.1.9'
+  pod 'MLLabel' , '~> 1.9.2'
+  pod 'Masonry' , '~> 1.0.1'
+  pod 'UITableView+FDTemplateLayoutCell' , '~> 1.5.beta'
+  pod 'pop', '~> 1.0.9'
+  pod 'TWMessageBarManager'
+  pod 'MLPAutoCompleteTextField'
+  pod 'FTPopOverMenu'
+
+  target 'loopTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'loopUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

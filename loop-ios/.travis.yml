@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode8
+before_install:
+  - gem install cocoapods
+  - gem install fastlane
+  - gem install match
+  - gem install xcpretty
+  - echo -e "machine github.com\n login $CI_USER_TOKEN" >> ~/.netrc
+script:
+  - chmod +x build.sh
+  - ./build.sh
+notifications:
+  slack: looptechnology:KWwwsUhFSqludpO5QIYoABzg

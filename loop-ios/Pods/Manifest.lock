@@ -1,0 +1,221 @@
+PODS:
+  - AVOSCloud (4.2.0)
+  - AVOSCloudCrashReporting (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudCrashReporting/_ARC (= 4.2.0)
+    - AVOSCloudCrashReporting/_NOARC (= 4.2.0)
+  - AVOSCloudCrashReporting/_ARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudCrashReporting/_NOARC (= 4.2.0)
+  - AVOSCloudCrashReporting/_NOARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
+  - AVOSCloudIM (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudIM/_ARC (= 4.2.0)
+    - AVOSCloudIM/_NOARC (= 4.2.0)
+  - AVOSCloudIM/_ARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
+    - AVOSCloudIM/_NOARC (= 4.2.0)
+  - AVOSCloudIM/_NOARC (4.2.0):
+    - AVOSCloud (= 4.2.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CarbonKit (2.1.9)
+  - CYLTabBarController (1.10.0)
+  - DACircularProgress (2.3.1)
+  - DateTools (2.0.0-beta.2)
+  - DZNEmptyDataSet (1.8.1)
+  - ESPullToRefresh (2.6)
+  - ETNavBarTransparent (1.0.8)
+  - Fabric (1.6.11)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.20.2):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.20.2):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.20.2):
+    - FBSDKCoreKit
+  - FDStackView (1.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FTPopOverMenu (1.3.3)
+  - HockeySDK/AllFeaturesLib (4.1.4)
+  - Instabug (7.1)
+  - IQKeyboardManagerSwift (4.0.8)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - MLLabel (1.9.2)
+  - MLPAutoCompleteTextField (1.5)
+  - MWPhotoBrowser (2.1.3):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 1.0)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - NextResponderTextField (2.0.1)
+  - pop (1.0.9)
+  - PopupDialog (0.5.4)
+  - QBImagePickerController (3.4.0)
+  - Reveal-iOS-SDK (1.6.2)
+  - RSKImageCropper (1.6.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.2.0)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (3.1.3)
+  - SwipeTableView (0.2.6)
+  - TTTAttributedLabel (2.0.0)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.1):
+    - TwitterCore (>= 2.8)
+  - TWMessageBarManager (1.8.1)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - CarbonKit (~> 2.1)
+  - CYLTabBarController
+  - DACircularProgress (~> 2.3.1)
+  - DateTools (from `git@github.com:MatthewYork/DateTools.git`, branch `2.0.0-beta.2`)
+  - DZNEmptyDataSet
+  - ESPullToRefresh (from `git@github.com:eggswift/pull-to-refresh.git`)
+  - ETNavBarTransparent
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - FDStackView (~> 1.0)
+  - FMDB (~> 2.6.2)
+  - FTPopOverMenu
+  - HockeySDK/AllFeaturesLib
+  - Instabug
+  - IQKeyboardManagerSwift (from `git@github.com:hackiftekhar/IQKeyboardManager.git`)
+  - Masonry (~> 1.0.1)
+  - MJRefresh (~> 3.1.9)
+  - MLLabel (~> 1.9.2)
+  - MLPAutoCompleteTextField
+  - MWPhotoBrowser (from `git@github.com:niveuseverto/MWPhotoBrowser.git`)
+  - NextResponderTextField
+  - pop (~> 1.0.9)
+  - PopupDialog
+  - QBImagePickerController
+  - Reveal-iOS-SDK (~> 1.6.2)
+  - RSKImageCropper (from `https://github.com/ruslanskorb/RSKImageCropper.git`, branch `master`)
+  - SDWebImage (~> 3.8.0)
+  - SnapKit (>= 3.0.0)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON (= 3.1.3)
+  - SwipeTableView
+  - TTTAttributedLabel
+  - TwitterKit
+  - TWMessageBarManager
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+
+EXTERNAL SOURCES:
+  DateTools:
+    :branch: 2.0.0-beta.2
+    :git: git@github.com:MatthewYork/DateTools.git
+  ESPullToRefresh:
+    :git: git@github.com:eggswift/pull-to-refresh.git
+  IQKeyboardManagerSwift:
+    :git: git@github.com:hackiftekhar/IQKeyboardManager.git
+  MWPhotoBrowser:
+    :git: git@github.com:niveuseverto/MWPhotoBrowser.git
+  RSKImageCropper:
+    :branch: master
+    :git: https://github.com/ruslanskorb/RSKImageCropper.git
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  DateTools:
+    :commit: ed0f8f12fff1711f21e0fb6f082dd5e785562d8e
+    :git: git@github.com:MatthewYork/DateTools.git
+  ESPullToRefresh:
+    :commit: e74b800c198a1ccd21bf8ec793ea8ac2a24d8244
+    :git: git@github.com:eggswift/pull-to-refresh.git
+  IQKeyboardManagerSwift:
+    :commit: b0456f8ab6a89b05a10c22279397d9f4694f7ff2
+    :git: git@github.com:hackiftekhar/IQKeyboardManager.git
+  MWPhotoBrowser:
+    :commit: e2118eb412b40a367ad22906e8e9f6413f522e7a
+    :git: git@github.com:niveuseverto/MWPhotoBrowser.git
+  RSKImageCropper:
+    :commit: 92734986c479a88d4dfe9cc26eb390ff21903728
+    :git: https://github.com/ruslanskorb/RSKImageCropper.git
+  SwiftValidator:
+    :commit: 2a6c23ad9efd76127f6109445515cb9780e5ad92
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  AVOSCloud: 5446ad0320f4942cce1a036d131992cd1115db99
+  AVOSCloudCrashReporting: d7ab96935498000477076e35b17849abfa716652
+  AVOSCloudIM: 69df8e8517247f3c2585e321f24e777d5b398843
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CarbonKit: af16a9c0d2b6c908a5985fe4633424d38c9bfc0a
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 99f100490bb68e03f0fcfb73da9db0e1ad4519bf
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESPullToRefresh: 5d5bb36883ab2710b7eb4ab3b3e5e443fdfbc1f2
+  ETNavBarTransparent: eacdaa11e4aa364107bb8af4be3bd29dc7ae9254
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 82eac696eb6157da5f4266c3a241f00e9bd72471
+  FBSDKLoginKit: 2211bede07c83391349eacc1fd86cf6d9289ce38
+  FBSDKShareKit: ca9b22264ea49a896dafb2467c1a4f72aa41996f
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FTPopOverMenu: a12bb907b8402acc4566ce3ac85f706e09af19e8
+  HockeySDK: 78a3f8bb9100277b531defc56c970369a3ca267a
+  Instabug: 13b238537cdacc1d6a2db71a8375b0c6fbcbe248
+  IQKeyboardManagerSwift: 89e840ed0a85fd6599354c0c556d3fda961f0644
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLLabel: df58127ce0bd1f87890ecc3232db77a85ce4cd97
+  MLPAutoCompleteTextField: ba4d507bbff2bd4f139d4197814fc8dd39caf77e
+  MWPhotoBrowser: df42ac533fb35af1a650f83e3537cace510e6c66
+  NextResponderTextField: 93221cea88a1f2838558db88adc46d2a0763f0dd
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  RSKImageCropper: 0df8c99e77a8ea7ca7a8b83ef468556f31584254
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  SwipeTableView: 67d8a2e6e18bd38c188fd4fabda0b278eaa08d2f
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
+  TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+
+PODFILE CHECKSUM: f7f3e057530b476cc4ad8cfb41e6b7bc2f8e0478
+
+COCOAPODS: 1.2.0
