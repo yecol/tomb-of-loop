@@ -2,7 +2,7 @@
 
 During my PhD, I collaborated with some friends on a project named LOOP (2016.9-2017.1). 
 
-LOOP is a unique social platform designed to connect friends and celebrate their offline achievements through earned badges. What sets it apart from other social apps is that these badges can only be obtained through offline activities. Learn more about LOOP at [website](#). 
+LOOP is a unique social platform designed to connect friends and celebrate their offline achievements through earned badges. What sets it apart from other social apps is that these badges can only be obtained through offline activities. Learn more about LOOP at [website](https://tomb-of-loop.pages.dev/). 
 
 The LOOP app was briefly available on both the App Store and the Android store. Unfortunately, the project came to a halt before reaching 100 users due to various (dramatical) reasons. Nevertheless, I am immensely grateful for the opportunity to be part of LOOP as it provided substantial support for my PhD and enhanced my life in Edinburgh. I would like to express my deepest gratitude to Yi Zhou, who invited me to join in this project.
 
@@ -66,7 +66,7 @@ Zoo | ![zoo_1](/assets/badges/zoo_1.png) | ![zoo_2](/assets/badges/zoo_2.png) | 
 
 ## Code 
 - `loop-ios`, the sourcecode of the iOS app.
-- `loop-web`, the website of LOOP, visitable at [TBF](#).
+- `loop-web`, the website of LOOP, visitable at [https://tomb-of-loop.pages.dev](https://tomb-of-loop.pages.dev/).
 
 ## VI & UX
 Please find all files under `/assets/VI` or `/assets/UX`. Prototypes are made with [Sketch](/assets/UX/loop.sketch).
